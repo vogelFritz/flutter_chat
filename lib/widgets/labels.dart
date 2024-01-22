@@ -16,11 +16,11 @@ class Labels extends StatelessWidget {
     return Column(
       children: [
         Text(titulo,
-            style: TextStyle(
+            style: const TextStyle(
                 color: Colors.black54,
                 fontSize: 15,
                 fontWeight: FontWeight.w300)),
-        SizedBox(height: 10),
+        const SizedBox(height: 10),
         GestureDetector(
           onTap: () {
             Navigator.pushReplacementNamed(context, route);
